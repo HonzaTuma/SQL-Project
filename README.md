@@ -1,3 +1,5 @@
+/* uživatelské jméno na Discordu honza.tuma88 */
+
 /* ----------------------------------------------------------------------*/
 
 /* 1. Rostou v průběhu let mzdy ve všech odvětvích nebo v některých klesají? */
