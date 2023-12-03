@@ -68,7 +68,7 @@ SELECT
 FROM
 	v_year_category;
 
---  Výsledky lze zpozorovat ve vytvořeném přehledu ve sloupci quantity_goods
+--  Ve vytvořeném přehledu ve sloupci quantity_goods zjistíme, že v prvmí, srovnatelném období (2006) bychom si koupili 16.12 kg chleba a 14.44 litru mléka. V posledním srovnatelném období (2018) bychom si koupili 24.24 kg chleba a 19.82 litru mléka.
 
 /* ----------------------------------------------------------------------*/
 
