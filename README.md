@@ -27,3 +27,9 @@
 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
 5. Má výška HDP vliv na změny v mzdách a cenách potravin? Jinými slovy, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
 
+## Odpovědi na Výzkumné Otázky
+1. Ve sloupci "pay_growth" můžeme pozorovat, že ve všech pozorovaných odvětvích mzda v průběhu let roste.
+2. Ve vytvořeném přehledu zjistíme, že v prvním srovnatelném období (2006) bychom si koupili 16.12 kg chleba a 14.44 litru mléka. V posledním srovnatelném období (2018) bychom si koupili 24.24 kg chleba a 19.82 litru mléka.
+3. Z dat lze zjistit, že nejpomaleji zdražující kategorie potravin je Cukr krystalový.
+4. V rámci sledovaných let nebyl pozorován nárůst cen potravin vyšší než 10%.
+5. Z dat plyne, že výše HDP nemá přímý vliv na růst mezd nebo cen potravin. Pokud míra HDP vzroste výrazněji v roce X, pak se projeví výrazněji na růstu ceny potravin i růstu mezd v roce X+1. 
