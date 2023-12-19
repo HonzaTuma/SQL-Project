@@ -29,7 +29,9 @@
 
 ## Odpovědi na Výzkumné Otázky
 1. Ve sloupci "pay_growth" můžeme pozorovat, že ve všech pozorovaných odvětvích mzda v průběhu let roste.
-2. Ve vytvořeném přehledu zjistíme, že v prvním srovnatelném období (2006) bychom si koupili 16.12 kg chleba a 14.44 litru mléka. V posledním srovnatelném období (2018) bychom si koupili 24.24 kg chleba a 19.82 litru mléka.
+2. Ve vytvořeném přehledu zjistíme, že v prvním srovnatelném období (2006) byla jednotková cena 16.12 Kč za Chléb konzumní kmínový a 14.44 Kč za Mléko polotučné pasterované a v posledním srovnatelném období (2018) byla jednotková cena 24.24 Kč za Chléb konzumní kmínový a 19.82 Kč za Mléko polotučné pasterované.
+  - V roce 2006 bychom si při průměrné mzdě 21 165 Kč počítané z 19 odvětví koupili buď 1 312 bochníků chleba nebo 1 465 kartonů mléka.
+  - V roce 2018 bychom si při průměrné mzdě 33 091 Kč počítané z 19 odvětví koupili buď 1 365 bochníků chleba nebo 1 669 kartonů mléka.
 3. Z dat lze zjistit, že nejpomaleji zdražující kategorie potravin je Cukr krystalový.
 4. V rámci sledovaných let nebyl pozorován nárůst cen potravin vyšší než 10%.
 5. Z dat plyne, že výše HDP nemá přímý vliv na růst mezd nebo cen potravin. Pokud míra HDP vzroste výrazněji v roce X, pak se projeví výrazněji na růstu ceny potravin i růstu mezd v roce X+1. 
