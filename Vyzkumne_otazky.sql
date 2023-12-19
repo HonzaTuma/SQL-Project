@@ -1,7 +1,3 @@
-/* uživatelské jméno na Discordu honza.tuma88 */
-
-/* ----------------------------------------------------------------------*/
-
 /* 1. Rostou v průběhu let mzdy ve všech odvětvích nebo v některých klesají? */
 
 CREATE OR REPLACE VIEW v_cz_payroll AS
@@ -36,8 +32,6 @@ FROM v_payroll_growth_cz
 WHERE growth IS NOT NULL
 GROUP BY industry_branch;
 
--- Ve sloupci "pay_growth" můžeme pozorovat, že ve všech pozorovaných odvětvích mzda v průběhu let roste.
-
 /* ----------------------------------------------------------------------*/
 
 /* 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd? */
@@ -68,8 +62,6 @@ SELECT
 FROM
 	v_year_category;
 
---  Ve vytvořeném přehledu zjistíme, že v prvním srovnatelném období (2006) bychom si koupili 16.12 kg chleba a 14.44 litru mléka. V posledním srovnatelném období (2018) bychom si koupili 24.24 kg chleba a 19.82 litru mléka.
-
 /* ----------------------------------------------------------------------*/
 
 /* 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)? */
@@ -95,8 +87,6 @@ GROUP BY
 	category
 ORDER BY
 	AVG (difference);
-
--- Z dat lze zjistit, že nejpomaleji zdražující kategorie potravin je Cukr krystalový.
 
 /* ----------------------------------------------------------------------*/
 
@@ -126,8 +116,6 @@ FROM
 LEFT JOIN v_payroll_growth_cz AS v_cz_pay
 	ON v_cz_p.year_price = v_cz_pay.year_price
 ORDER BY difference_price_pay;
-
--- V rámci sledovaných let nebyl pozorován nárůst cen potravin vyšší než 10%.
 
 /* ----------------------------------------------------------------------*/
 
@@ -175,5 +163,3 @@ LEFT JOIN v_price_growth_cz AS v_cz_p
 LEFT JOIN v_payroll_growth_cz AS v_cz_pay
 	ON v_gdp.year= v_cz_pay.year_price
 WHERE v_gdp.year >= 2006 AND v_gdp.year <= 2020 ;
-
--- Z dat plyne, že výše HDP nemá přímý vliv na růst mezd nebo cen potravin. Pokud míra HDP vzroste výrazněji v roce X, pak se projeví výrazněji na růstu ceny potravin i růstu mezd v roce X+1.
