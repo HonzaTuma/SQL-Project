@@ -28,10 +28,17 @@
 5. Má výška HDP vliv na změny v mzdách a cenách potravin? Jinými slovy, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
 
 ## Odpovědi na Výzkumné Otázky
-1. Ve sloupci "pay_growth" můžeme pozorovat, že ve všech pozorovaných odvětvích mzda v průběhu let roste.
-2. Ve vytvořeném přehledu zjistíme, že v prvním srovnatelném období (2006) byla jednotková cena 16.12 Kč za Chléb konzumní kmínový a 14.44 Kč za Mléko polotučné pasterované a v posledním srovnatelném období (2018) byla jednotková cena 24.24 Kč za Chléb konzumní kmínový a 19.82 Kč za Mléko polotučné pasterované.
-  - V roce 2006 bychom si při průměrné mzdě 21 165 Kč počítané z 19 odvětví koupili buď 1 312 bochníků chleba nebo 1 465 kartonů mléka.
-  - V roce 2018 bychom si při průměrné mzdě 33 091 Kč počítané z 19 odvětví koupili buď 1 365 bochníků chleba nebo 1 669 kartonů mléka.
-3. Z dat lze zjistit, že nejpomaleji zdražující kategorie potravin je Cukr krystalový.
-4. V rámci sledovaných let nebyl pozorován nárůst cen potravin vyšší než 10%.
-5. Z dat plyne, že výše HDP nemá přímý vliv na růst mezd nebo cen potravin. Pokud míra HDP vzroste výrazněji v roce X, pak se projeví výrazněji na růstu ceny potravin i růstu mezd v roce X+1. 
+
+1. **Růst Mzd v Odvětvích:** Ve sloupci "pay_growth" můžeme pozorovat, že ve všech pozorovaných odvětvích mzdy v průběhu let rostou.
+
+2. **Porovnání Cen Potravin:**
+   - V roce 2006 byla jednotková cena za Chléb konzumní kmínový 16.12 Kč a za Mléko polotučné pasterované 14.44 Kč.
+   - V roce 2018 byla jednotková cena za Chléb konzumní kmínový 24.24 Kč a za Mléko polotučné pasterované 19.82 Kč.
+   
+   Při průměrné mzdě 21,165 Kč v roce 2006 bychom si mohli koupit buď 1,312 bochníků chleba nebo 1,465 kartonů mléka. V roce 2018, s průměrnou mzdou 33,091 Kč, bychom si mohli koupit buď 1,365 bochníků chleba nebo 1,669 kartonů mléka.
+
+3. **Nejpomaleji Zdražující Potraviny:** Z dat lze vyčíst, že nejpomaleji zdražující kategorií potravin je Cukr krystalový.
+
+4. **Růst Cen Potravin a Mzdí:** V rámci sledovaných let nebyl zaznamenán nárůst cen potravin vyšší než 10 %.
+
+5. **Vliv HDP na Mzdy a Ceny Potravin:** Z dat plyne, že výše HDP nemá přímý vliv na růst mezd ani cen potravin. Pokud míra HDP vzroste výrazněji v jednom roce, projeví se to výrazněji na růstu cen potravin i mezd v následujícím roce (X+1).
